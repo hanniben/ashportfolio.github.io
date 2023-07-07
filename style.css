@@ -8,6 +8,10 @@
     .project-grid {
         grid-template-columns: 3fr 3fr 6fr;
     }
+
+    .img-small {
+        width: 600px;
+    }
 }
 
 @media screen and (max-width: 999px) {
@@ -22,6 +26,10 @@
     body {
         width: 90vw;
     }
+
+    .img-small {
+        width: 100%;
+    }
 }
 
 body {
@@ -29,12 +37,12 @@ body {
     width: 90vw;
 }
 
-.img-small {
-    width: 600px;
-}
-
 .project-display {
     width: 100%;
+}
+
+.home-grid div{
+    margin-bottom: 40px;
 }
 
 img {
